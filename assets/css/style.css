@@ -132,6 +132,25 @@ html {
   column-gap: 2.5rem;
 }
 
+.scale-cv .notes {
+  display: none;
+}
+
+.scale-cv .chaofeng {
+  text-decoration: none;
+}
+
+.notes {
+  display: none;
+}
+
+.exercise {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: var(--h1-font-size);
+  border: 1px solid var(--text-color);
+}
+
 body {
   margin: 0 0 var(--header-height) 0;
   padding: 0;
@@ -466,6 +485,11 @@ body.scale-cv {
 }
 
 /* CERTIFICATE */
+.chaofeng {
+  text-decoration: underline;
+  font-size: var(--h2-font-size);
+  color: var(--text-color);
+}
 .certificate__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
@@ -554,6 +578,10 @@ body.scale-cv {
   .l-header,
   .scrolltop {
     display: none;
+  }
+
+  .notes {
+    display: block;
   }
 
   .resume {
